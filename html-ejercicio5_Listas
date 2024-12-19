@@ -1,0 +1,63 @@
+<!--
+Ejemplo_05_Listas.html-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+        <h1>listas</h1>
+    <ul>
+        <li>hp</li>
+        <li>asus</li>
+        <li>lenovo</li>
+    </ul>
+    <ol>
+        <li>mates</li>
+        <li>física</li>
+        <li>química</li>
+        <li>dibujo técnico</li>
+    </ol> 
+    <h2>contenido del curso</h2>
+    <ol style="background-color: aqua;">
+        <li>UF1302
+            <ul>
+                <li>LINUX</li>
+                <li>VSCode</li>
+                <li>HTML5</li>
+                <li>GIT</li>
+                <li>MarkDown</li>
+            </ul>
+        </li>
+        <li>UF1303
+            <ul>
+                <li>lo que sea</li>
+                <li>lo que sea 2</li>
+                <li>lo que sea 3</li>
+                <li>lo que sea 4</li>
+            </ul>
+        </li>
+        <li>UF1304
+            <ul>
+                <li>lo que sea 5</li>
+                <li>lo que sea 6</li>
+                <li>lo que sea 7</li>
+                <li>lo que sea 8</li>
+            </ul>
+        </li>
+    </ol>
+    <h2>AC/ DC</h2>
+        <img src="imagenes/AngusYoung.JPG" alt="angus young" width="200">
+        <h2>MAPA DE IMAGEN</h2>
+    <img src="imagenes/imagen-mapa.png" alt="mapa imagen" usemap="#image-map">
+    <map name="image-map">
+        <area target="_self" alt="el primero" title="el primero" href="https://developer.mozilla.org/es/docs/Glossary/HTML5" coords="42,41,181,226" shape="rect">
+        <area href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" coords="282,126,76" shape="circle">
+        <area target="_blank" alt="el tercero" title="el tercero" href="https://github.com/mdbootstrap" coords="388,50,543,211" shape="rect">
+        <area target="_blank" alt="el cuarto" title="el cuarto" href="https://www.universal-comics.com/products/159330-star-wars-darth-vader-08-dark-drodds.html" coords="627,54,561,115,631,187,699,124" shape="poly">
+    </map>
+</body>
+
+</html>

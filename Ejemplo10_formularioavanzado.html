@@ -1,0 +1,55 @@
+<!--Ejemplo 10  formulario avanzado-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario avanzado</title>
+</head>
+
+<body>
+
+    <p>Párrafo normal con el p</p>
+
+    <pre>Preeba de escribir 
+        con<small>prueba de small, la letra es más pequeña</small>varias cosas dentro del 
+        pre    <mark>prueba de marca</mark>   como todo esto
+    </pre>
+    <details>
+        <summary>lo del summary</summary>
+        <pre>Prueba de escribir 
+            con<small>prueba de small, la letra es más pequeña</small>varias cosas dentro del 
+            pre    <mark>prueba de marca</mark>   como todo esto
+        </pre>
+    </details>
+    <br><br>
+    <p>otro iframe</p>
+    <br><br><br>
+    <br>
+    <br>
+    <form action="prueba.php" method="get">
+        <label for="correo">Escribe un correo electrónico</label><br>
+        <input type="email" name="correo" id="correo" required="required" placeholder="escribe el correo"><br><br>
+        <label for="buscar">Qué quieres buscar?</label>
+        <input type="search" name="buscar" id="buscar"><br>
+        <label for="numero">pon un número</label><br>
+        <input type="number" name="numero" id="numero" min="2" max="10" step="1"><br>
+        <label for="rango">El rango</label>
+        <input type="range" name="rango" id="rango" min="0" max="100" step="4"><br>
+        <hr>
+        <label for="ercolo">elige color churrita</label><br>
+        <input type="color" name="ercolo" id="ercolo"><br><br>
+        <label for="lafecha"></label><br>
+        <input type="date" name="lafecha" id="lafecha"><br><br>
+        <hr>
+        <button type="submit">Enviar formulario</button>
+
+
+    </form>
+    <br><br><br>
+    <br><br>
+    <br><br>
+</body>
+
+</html>

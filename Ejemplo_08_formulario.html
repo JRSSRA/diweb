@@ -1,0 +1,46 @@
+<!--Primero ejercicio de Formularios_Ejemplo_08_formulario.html....-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios básicos</title>
+</head>
+<body>
+    <h1>Formulario muy sencillito....</h1>
+    <form action="grabaform.php" method="get">
+    <label for="modelo">Modelo Móvil</label><br>
+    <input type="text" name="modelo" id="modelo"/><br>
+    <input type="submit" value="añadir al carrito"/><br><br><br>
+    <label for="Texto a escribir">Comentarios</label><br>
+    <textarea name="Texto a escribir" id="Texto a escribir" cols="30" rows="10"></textarea><br>
+    <input type="submit" value="enviar el texto">
+</form>
+    <hr>
+    <form action="grabaform2.php" method="get">
+    <p>Indicar sexo:</p>
+    <input type="radio" name="sexo" id="hombre" valule="hombre">
+    <label for="hombre">Varón</label><br>
+    <input type="radio" name="sexo" id="hembra" value="hembra" checked>
+    <label for="hembra"> Hembra</label><br>
+    <input type="radio" name="sexo" id="indeterminado" value="indeterminado">
+    <label for="indeterminado">Indeterminado</label><br>
+    <hr>
+    <p>Curso:</p>
+    <input type="checkbox" name="cursos[]" id="html" value="html">
+    <label for="html">HTML</label><br>
+    <input type="checkbox" name="cursos[]" id="css" value="html">
+    <label for="css">CSS</label><br>
+    <input type="checkbox" name="cursos[]" id="js" value="js">
+    <label for="js">JS</label><br><br>
+    <hr>
+    <p>Elige ciudad</p>
+    <select name="" id="">
+        <option value="sevilla">SEVILLA</option>
+        <option value="cadiz">Cádiz</option>
+        <option value="huelva">Huelva</option>
+    </select><br><br><br>
+    <input type="submit" value="añadir al carrito">
+    </form>
+</body>
+</html>

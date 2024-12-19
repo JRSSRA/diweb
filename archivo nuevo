@@ -1,0 +1,67 @@
+Las tablas HTML son elementos dentro del diseño web que permiten a los desarrolladores web organizar datos como texto, imágenes y enlaces en filas y columnas.
+
+Dentro del lenguaje de diseño web, las tablas HTML se crean usando las etiquetas <table> y </table>. En ella se incluyen dos etiquetas importantes: <tr>, que es para crear filas de tablas y <td>, para crear celdas de datos. Todo lo que esté dentro de ambas etiquetas es el contenido de la celda de la tabla. 
+
+Entre otras etiquetas utilizadas al momento de trabajar con tablas HTML son: <th>, para agregar encabezados, <caption>, para insertar subtítulos, <thead> para añadir un encabezado separado a la tabla, <tbody>, que sirve para mostrar el cuerpo inicial de la tabla y <tfoot>, para crear un pie de página separado de la tabla.
+
+El uso de tablas HTML en el diseño se ha vuelto muy común, pues las etiquetas permiten la creación de contenido web de una forma menos compleja; lo cual brinda más oportunidades de diseño.
+
+. Crea una tabla sencilla
+
+Lo primero que debes hacer para crear una tabla HTML es contar con un editor de texto HTML. Este puede ser tu propio bloc de notas, siempre y cuando admita texto sin formato. Si quieres algo más especializado puedes optar por Notepad++ o alguna alternativa online como GitHub.  
+
+Como lo mencionamos al inicio, todo el contenido de las tablas HTML está delimitado por las etiquetas <table> y </table>. Estas serán las principales etiquetas que usarás en el cuerpo de tu editor de texto.
+
+Cómo hacer tablas en HTML: crear tabla
+
+A continuación, debes comenzar a agregar la etiqueta <td> (datos de tabla) e incluir tu primer contenido, por ejemplo:
+
+Cómo hacer tablas en HTML: crear filas
+
+Si quieres agregar una fila con más columnas, solo debes copiar la etiqueta <td> las veces que desees, actualizando el contenido de tu tabla. Esto debe lucir de la siguiente manera:
+
+Cómo hacer tablas en HTML: añadir columnas a la fila
+
+Para colocar una segunda fila, debes añadir nuevamente la etiqueta <tr>. Y repite el proceso anterior con la actualización de datos que desees. Recuerda que cada fila debe estar dentro de la etiqueta <tr> con cada celda contenida en un archivo <td>.
+
+Cómo hacer tablas en HTML: crear más filas
+
+El resultado de esta primera tabla HTML sencilla debería ser algo así:
+
+Cómo hacer tablas en HTML: muestra de tabla
+2. Agrega un encabezado 
+
+Si bien la tabla anterior ya muestra contenido organizado, lo cierto es que es poco entendible, ¿cierto? Para ello, es necesario agregar un encabezado y lo puedes hacer colocando nuevamente las etiquetas <tr> y <td>. El código de forma completa luciría así: 
+ el resultado de la tabla sería el siguiente: 
+
+Cómo hacer tablas en HTML: muestra de tabla con encabezado
+<< [Plantilla gratuita] >> Plantillas de códigos de programación para HTML.
+3. Proporciona un estilo 
+
+Si además de incluir un encabezado a tu tabla HTML, quieres darle un poco de estilo, por ejemplo, incorporar algún color a alguna columna, también es posible.
+
+Para definir la información de estilo a una columna completa debes hacer uso de las etiquetas <col> y <colgroup>. El ejemplo de código para hacerlo es el siguiente: 
+
+Cómo hacer tablas en HTML: añadir estilo en columnas
+
+El resultado de la tabla está presentado en la imagen a continuación: 
+
+Cómo hacer tablas en HTML - muestra columnas con estilo
+
+Si bien puedes añadir varios estilos, encontrarás algunas limitaciones en cuanto a propiedades, por ejemplo: borde, fondo, ancho y visibilidad. Si quisieras agregar estas y más propiedades debes diseñar cada <td> o <th> en la columna. Sin embargo, esta opción es más compleja que la que te hemos presentado anteriormente.
+
+Este proceso es un tanto complicado, ya que debes repetir la información de estilo en las tres celdas de la columna. Para hacer esta actividad más dinámica puedes especificar la información una sola vez con la etiqueta <col> dentro de un <colgroup>.
+
+Si quieres lograr el mismo estilo en la tabla HTML que hicimos anteriormente, pero sin tantas repeticiones, el código quedaría de la siguiente forma:
+
+Cómo hacer tablas en HTML: añadir estilo a varias columnas
+
+Si quisieras aplicar la misma información de estilo a ambas columnas, solo debes incluir la etiqueta <col> con un atributo de intervalo como lo mostramos a continuación:
+
+Cómo hacer tablas en HTML: añadir estilo a un intervalo de columnas
+
+El elemento span sirve para tomar un valor numérico sin unidades que ayuda a especificar el número de columnas a las que deseas que se aplique el mismo estilo.
+
+Estos son los conceptos básicos para crear tablas en HTML. Si bien es posible aplicar características más avanzadas, antes de avanzar es indispensable que te familiarices con los elementos, etiquetas y demás atributos previo a añadir elementos más complejos.
+
+Como puedes ver, las tablas HTML son altamente funcionales y su creación no es tan compleja como suele pensarse. Solo es cuestión de práctica (y buena memoria) para dominar el lenguaje y volverte todo un experto.

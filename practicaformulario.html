@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prácticas formularios</title>
+</head>
+
+<body>
+    <form action="enviarpor.php" method="get">
+        <label for="ejemplo1">ejemplo1</label><br>
+        <input type="text" name="ejemplo1" id="ejemplo1"><br>
+
+        <br><br>
+        <label for="elcuadrodetexto">Escribir lo que sea</label><br>
+        &emsp;&emsp;&emsp;&emsp; <textarea name="elcuadrodetexto" id="elcuadrodetexto" cols="50"
+            rows="15">Escribe aquí dentro</textarea>
+        <br><br>
+        <p>Opciones del checkbox</p>
+        <label for="elcheck">primera opción</label>
+        <input type="checkbox" name="elcheck[]" id="primercheck" value="primera"><br>
+        <label for="elcheck">segunda opción</label>
+        <input type="checkbox" name="elcheck[]" id="segundocheck" value="segunda"><br>
+        <label for="elcheck">tercera opción</label>
+        <input type="checkbox" name="elcheck[]" id="tercercheck" value="tercera"><br><br><br>
+        <p>Opciones del radio</p>
+        <label for="elradio">primera opcion del radio</label>
+        <input type="radio" name="elradio" id="elradio" value="1"><br>
+        <label for="elradio">segunda opcion del radio</label>
+        <input type="radio" name="elradio" id="2" checked><br>
+        <br><br><br>
+        <select name="seleccionpersiana" id="menupersiana">
+            <option disabled selected>Pon la ciudad</option>
+            <optgroup label="ciudades de españa"></optgroup>
+            <option value="sevilla">Ciudad de Sevilla</option>
+            <option value="madrid">ciudad de Madrid</option>
+            <option value="huelva">Ciudad de Huelva</option>
+            <optgroup label="ciudades de cataluña"></optgroup>
+            <option value="barcelona">Barcelona</option>
+            <option value="tarragona">Tarragona</option>
+        </select>
+        <br>
+        <br>
+        <label for="elbotondeenviar">Envíame</label>
+        <input type="submit" name="elbotondeenviar" value="dale...">
+    </form>
+    <br>
+    <br>
+    <table border="1">
+        <tr>
+            <td colspan="3">lastresprimerasjuntas</td>
+            <td></td>
+        </tr>
+        <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="2">dos juntas</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+
+            <td></td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>

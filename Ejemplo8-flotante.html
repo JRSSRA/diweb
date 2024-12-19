@@ -1,0 +1,45 @@
+<!--Cajas flotantes-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajas flotantes</title>
+    <style>
+        main {
+            width: 710px;
+            height: 450px;
+            background-color: pink;
+        }
+        p {
+            width: 200px;
+            height: 100px;
+            background-color: aqua;
+            float: both;
+            margin-left:5px;
+            margin-right: 5px;
+            padding: 10px;
+            border: 2px red solid;
+        } /*probar con left y right*/
+        p:nth-of-type(2){
+            box-shadow: -4px -4px 10px blue;
+            clear: both;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <main>
+
+        <p>párrafo 1</p>
+        <p>párrafo 2</p>
+        <p>párrafo 3</p>
+    </main>
+
+</body>
+
+</html>

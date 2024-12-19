@@ -1,0 +1,56 @@
+<!--ejericios bordes-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordes</title>
+    <style>
+        p {
+            width: 25%;
+            height: 30px;
+            background: cyan;
+            color: purple;
+        }
+
+
+
+        article p:first-child {
+
+            border: pink 5px solid;
+        }
+
+        section p:nth-child(2) {
+            border: blue 10px solid;
+        }
+
+        article p:nth-child(3) {
+          
+            border: red solid 10px;
+        }
+        article p:nth-child(4) {
+            border: black 20px solid;
+            border-bottom-style:dotted;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <p>Párrafo 1</p>
+        <p>Párrafo 2</p>
+        <p>Párrafo 3</p>
+        <p>Párrafo 4</p>
+    </section>
+
+
+    <article>
+        <p>Párrafo 1</p>
+        <p>Párrafo 2</p>
+        <p>Párrafo 3</p>
+        <p>Párrafo 4</p>
+    </article>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas semánticas-pag pandora</title>
+</head>
+
+<!--
+Etiquetas semanticas
+- header
+- nav
+- section (+ el aria-label)
+- article  (+ el aria-label)
+- main
+- aside
+- figure
+- figcaption (suele ir dentro del figure)
+- footer
+- video
+- audio
+- details ->sección ocultable
+ - summary (va dentro de details -> Resumen de details
+- address -> dirección
+- time -> fecha y hora
+- 
+
+-->
+
+<body>
+    <header>
+        <section aria-label="logo">
+            <!--<h2>&nbsp;</h2>-->
+            <!--Comentar/decomentar hay que puslar CTRL+MAY+7-->
+            <figure>
+                <img src="#" alt="#">
+                <figcaption>Pandora</figcaption>
+            </figure>
+        </section>
+        <section aria-label="buscador">
+            <form action="#" method="get" name="1" id="1">
+                <label for="1">para buscar</label>
+                <input type="text">
+                <br>
+                <input type="submit" name="2" id="2">
+            </form>
+            <figure>
+                <a href="#"><img src="#" alt="#"></a>
+            </figure>
+        </section>
+        <hr>
+        <nav>
+            <a href="#">black friday</a>
+        </nav>
+    </header>
+    <main>
+        <section aria-label="banner">
+            <details>
+                <summary>black friday</summary>
+                <p>rebajas del 20%</p>
+                <img src="/home/admin/Escritorio/imagenes/Imgentabla5.avif" alt="modelo corriendo" width="200">
+                <a href="#">comprar</a>
+            </details>
+        </section>
+        <br><br>
+        <section arial-label="categorias">
+            <table border="3">
+                <tr>
+                    <td>
+                        <figure><img src="/home/admin/Escritorio/imagenes/Imgentabla6.avif" alt="#" width="100">
+                            <a href="#">
+                            <figcaption>
+                                &emsp14;&emsp14;&emsp14;<img src="/home/admin/Escritorio/imagenes/maletin.png" alt="#" width="15">
+                                novedades
+                            </figcaption>
+                            </a>
+                        </figure>
+                    </td>
+                    <td>
+                        <figure><img src="/home/admin/Escritorio/imagenes/Imgentabla6.avif" alt="#" width="100">
+                        </figure>
+                    </td>
+                    <td>
+                        <figure><img src="/home/admin/Escritorio/imagenes/Imgentabla6.avif" alt="#" width="100">
+                        </figure>
+                    </td>
+                    <td>
+                        <figure><img src="/home/admin/Escritorio/imagenes/Imgentabla6.avif" alt="#" width="100">
+                        </figure>
+                    </td>
+                    <td>
+                        <figure><img src="/home/admin/Escritorio/imagenes/Imgentabla6.avif" alt="#" width="100">
+                        </figure>
+                    </td>
+                    <td>
+                        <figure><img src="/home/admin/Escritorio/imagenes/Imgentabla6.avif" alt="#" width="100">
+                        </figure>
+                    </td>
+                </tr>
+            </table>
+
+        </section>
+    </main>
+
+
+</body>
+
+</html>

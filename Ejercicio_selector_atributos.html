@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ni idea</title>
+    <style>
+        form[method="post"]{
+            background-color: aqua;
+        }
+        form[method="get"]{
+            background-color: rgb(187, 16, 202);
+        }
+        input[value]{
+            border: 8px;
+        }
+        input[name=azul]+ br + input[value]{
+            color: rgb(231, 10, 10);
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <br><br><br><br>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>añadir a cesta</legend>
+            <label for="azul">Cafe azul</label>
+            <input type="number" name="azul" id="azul"><br>
+            <input type="submit" value="OK">
+        </fieldset>
+
+    </form>
+    <br><br><br>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>añadir a cesta</legend>
+            <label for="azul">Cafe azul</label>
+            <input type="number" name="rojo" id="rojo">
+            <input type="submit" value="OK">
+        </fieldset>
+
+    </form>
+
+</body>
+</html>

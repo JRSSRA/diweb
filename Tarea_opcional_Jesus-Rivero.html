@@ -1,0 +1,215 @@
+<!--Tarea opcional pagina de la wikipedia Bases de datos relacionales-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea opcional</title>
+</head>
+
+<body>
+    <header>
+        <!--details para elmenu de las tres rayas-->
+        <nav>
+        <details><summary><img src="/home/admin/Escritorio/tresrayas.png" alt="logotresrayas" width="40"></summary>
+                <ul>
+                    <li><strong>Menú principal</strong></li>
+                    <li>Portada</li>
+                    <li>Portal de la comunidad</li>
+                    <li>Actualidad</li>
+                    <li>Cambios recientes</li>
+                    <li>Páginas nuevas</li>
+                    <li>Página aleatoria</li>
+                    <li>Ayuda</li>
+                    <li>Notificar un error</li>
+
+                </ul>
+        </details>
+        
+            <form action="#" method="get">
+                <img src="/home/admin/Escritorio/logowiki2.jpeg" alt="logowiki" width="200"  height="100">
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="search" name="busqueda1" id="busqueda1" placeholder="Buscar en Wikipedia">
+                <label for="busqueda1"><strong>Buscar</strong></label>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="https://tinyurl.com/4yt56m4j">Donaciones</a>
+                <a href="https://es.wikipedia.org/w/index.php?title=Especial:Crear_una_cuenta&returnto=Base+de+datos+relacional">Crear una cuenta</a>
+                <a href="https://tinyurl.com/mryfukc2">Acceder</a>&emsp;<img src="/home/admin/Escritorio/trespuntos.png" alt="lostrespuntos" width="15">
+            </form>
+            <!-- logo más formulario de buscar-->
+    
+                
+        
+        </nav>
+    
+            
+    </header>
+    <main><!--Cuerpo cenetral de la página-->
+        <h1>Base de datos relacional</h1>
+        <hr>
+        <nav>
+            <strong>Artículo</strong>&emsp;<a href="https://es.wikipedia.org/wiki/Discusi%C3%B3n:Base_de_datos_relacional">Discusión</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="https://es.wikipedia.org/w/index.php?title=Discusi%C3%B3n:Base_de_datos_relacional&action=edit">Editar</a>&emsp;<a href="https://es.wikipedia.org/w/index.php?title=Base_de_datos_relacional&action=history">Ver Historial</a>&emsp;<details>
+                <summary>Herramientas</summary>
+                <ul>
+                    <li><strong>Herramientas</strong></li>
+                    <li>General</li>
+                    <li>Lo que enlaza aquí</li>
+                    <li>Cambios en enlazadas</li>
+                    <li>Atom</li>
+                    <li>Subir archivos</li>
+                    <li>Páginas especiales</li>
+                    <li>Información de la paǵina</li>
+                    <li>Obtener URL acortado</li>
+                    <li>Descargar código QR</li>
+                    <li>En otros proyectos</li>
+                    <li>Elemento de wikidata</li>
+                </ul>
+            </details>
+        <hr>
+        </nav>
+        <article>
+            
+            <figure>
+                <img src="/home/admin/Escritorio/image2.jpg" alt="imgencentral">
+            </figure>
+        </article>
+            
+                <p>Véase también: <a href="https://es.wikipedia.org/wiki/Base_de_datos_objeto-relacional">Base de datos objeto-relacional</a></p> 
+            
+            
+            
+        
+            <pre>       La base de datos relacional (BDR) es un tipo de base de datos (BD) que cumple con el modelo relacional (el
+        modelo más utilizado actualmente para implementar las BD ya planificadas). Tras ser postuladas sus bases en 1970
+        por Edgar Frank Codd, <sup><abbr title=" que quiere decir el 1" ></abbr><a href="https://google.es">1</a></abbr></sup>​ de los laboratorios IBM en San José (California), no tardó en consolidarse como un nuevo
+        paradigma en los modelos de base de datos.<sup><abbr title="Communications of the ACM, volume=13, issue=6, pages=377-387 Archivado el 12 de junio de 2007 en Wayback Machine. (en inglés)."><a href="https://es.wikipedia.org/wiki/Base_de_datos_relacional#cite_note-2">2</a></abbr></sup></pre><br>
+
+            <pre>       Un sistema de software utilizado para mantener las bases de datos relacionales es un relational database
+        management system (RDBMS) o sistema de gestión de bases de datos relacionales. Virtualmente, todos los sistemas
+        de bases de datos relacionales utilizan SQL (Structured Query Language) para consultar y mantener la base de datos. </pre><br><br>
+        <article>
+
+
+            <h3>Características comunes</h3>
+            <hr>
+            <ul>
+                <li>Una base de datos se compone de varias tablas, denominadas relaciones.</li>
+                <li>No pueden existir dos tablas con el mismo nombre ni registro.</li>
+                <li>Cada tabla es a su vez un conjunto de campos (columnas) y registros (filas).</li>
+                <li>La relación entre una tabla padre y un hijo se lleva a cabo por medio de las llaves primarias y llaves foráneas (o ajenas).</li>
+                <li>Las llaves primarias son la clave principal de un registro dentro de una tabla y estas deben cumplir con la integridad de datos.</li>
+                <li>Las llaves ajenas se colocan en la tabla hija, contienen el mismo valor que la llave primaria del registro padre; por medio de estas se hacen las formas relacionales.</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Elementos</h2>
+            <hr>
+            <h2>Relaciones (características en común)</h2><br>
+                <p>En una BDR, todos los datos se almacenan y se accede a ellos por medio de relaciones previamente establecidas. </p><br>
+                <h3>Relaciones base</h3>
+                <p>Las relaciones que almacenan datos son llamadas relaciones base y su implementación es llamada "tabla".</p>
+                <h3>Relaciones derivadas</h3>
+                <pre>                Otras relaciones no almacenan datos, pero son calculadas al aplicar operaciones relacionales. Estas relaciones son
+            llamadas relaciones derivadas y su implementación es llamada "vista" o "consulta". Las relaciones derivadas son convenientes, ya que expresan información de varias relaciones actuando como si fuera una sola tabla.
+
+            Algunas no son determinadas por los usuarios, sino que son inherentemente definidas por el simple hecho de que la BD sea relacional. Algunas otras restricciones las puede definir el usuario, por ejemplo, usar un campo con valores enteros entre 1 y 10.
+                    
+            Las restricciones proveen un método de implementar "reglas" en la base de datos.
+                    
+            Las restricciones limitan los datos que pueden ser almacenados en las tablas.
+                    
+            Usualmente se definen usando expresiones que dan como resultado un valor booleano, indicando si los datos satisfacen la restricción o no.
+                    
+            Las restricciones no son parte informal y formal del modelo relacional, pero son incluidas porque juegan el rol de organizar mejor los datos. 
+            Las restricciones son muy discutidas junto con los conceptos relacionales. </pre>
+            <h2>Dominios</h2>
+            <pre>
+            Un dominio describe un conjunto de posibles valores para cierto atributo. Como un dominio restringe los valores del atributo, puede ser 
+            considerado como una restricción. Matemáticamente, atribuir un dominio a un atributo significa "cualquier valor de este atributo debe ser elemento del conjunto especificado".
+
+            Distintos tipos de dominios son: enteros, cadenas de texto, fecha, no procedurales, etc.
+
+            Cada tabla puede tener uno o más campos cuyos valores identifican de forma única cada registro de dicha tabla, es decir, no pueden existir dos o más registros diferentes 
+            cuyos valores en dichos campos sean idénticos. Este conjunto de campos se llama clave única. Pueden existir varias claves únicas en una determinada tabla, y a cada una de estas
+            suele llamársele candidata a clave primaria. 
+            </pre><br>
+            <h2>Clasificación de Claves</h2>
+                <h3>Clave primaria</h3>
+                <pre>       Una clave primaria es una clave única (puede estar conformada por uno o más campos de la tabla) elegida entre todas las 
+                candidatas que define unívocamente a todos los demás atributos de la tabla para especificar los datos que serán relacionados con las demás tablas. La forma de hacer esto (relación entre tablas) es por medio de claves foráneas.</pre>
+                <br>
+                <h3>Clave externa o foránea</h3>
+                <pre>       Una clave foránea es una referencia a una clave en otra tabla, determina la relación existente en dos tablas. Las claves foráneas 
+                no necesitan ser claves únicas en la tabla donde están y sí a donde están referenciadas.
+
+                Por ejemplo, el código de departamento puede ser una clave foránea en la tabla de empleados. Se permite que haya varios empleados 
+                en un mismo departamento, pero habrá uno y solo un departamento por cada clave distinta de departamento en la tabla de departamentos. </pre>
+                <br>
+                </article>
+        <aside><!--aside izquierdo lista desplegable-->
+            <p><strong>Contenido</strong><button>ocultar</button></p>
+            <ul>
+                <li><strong>Inicio</strong></li>
+                <li>Características comunes</li>
+                <li>
+                    <details>
+                        <summary>Elementos</summary>
+                            <ul>
+                                <li>Relaciones(características en común)
+                                <ul>
+                                    <li>Relaciones base</li>
+                                    <li>Relaciones derivadas</li>
+                                </ul>
+                                </li>
+                                <li>Dominios</li>
+                                <li>Clasificación de claves
+                                    <ul>
+                                        <li>Clave primaria</li>
+                                        <li>Clave externa o foránea</li>
+                                        <li>Clave índice</li>
+                                    </ul>
+                                </li>
+                                <li>Prodecimientos almacenados</li>
+                            </ul>
+                    </details>
+                </li>
+                <li>Estructura y definiciones</li>
+                <li>Manipulación de la información</li>
+                <li>Gestores de bases de datos relacionales</li>
+                <li>Ventajas y desventajas</li>
+                <li>Diseño de las bases de datos relacionales</li>
+                <li>Veasi también</li>
+                <li>Referencias</li>
+                <li>Enlaces externos</li>    
+                
+            </ul>
+        </aside>
+        <aside><!--aside derecho desplegable-->
+            <p><strong>Apariencia</strong><button type="submit">ocultar</button></p>
+            <p>Texto</p>
+            <form action="#" method="get">
+                <input type="radio" name="texto" id="textop" value="pequeno">
+                <label for="textop">Pequeño</label><br>
+                <input type="radio" name="texto" id="textoe" value="estandar">
+                <label for="textoe">Estándar</label><br>
+                <input type="radio" name="texto" id="textog" value="grande">
+                <label for="textog">Estándar</label><br>
+            <p>Anchura</p>
+                <input type="radio" name="anchura" id="anchurae" value="estandar">
+                <label for="anchurae">Estándar</label><br>
+                <input type="radio" name="anchura" id="anchuraa" value="ancho">
+                <label for="anchuraa">Estándar</label><br>
+            <p>color (beta)</p>
+                <input type="radio" name="color" id="colora" value="automatico">
+                <label for="textop">Pequeño</label><br>
+                <input type="radio" name="color" id="colorc" value="claro">
+                <label for="textoe">Estándar</label><br>
+                <input type="radio" name="color" id="coloro" value="oscuro">
+                <label for="textog">Estándar</label><br>
+            </form>
+
+        </aside>
+    </main>
+
+</body>
+
+</html>

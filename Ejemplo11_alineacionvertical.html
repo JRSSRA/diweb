@@ -1,0 +1,54 @@
+<!--alineacion vertical-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alineacion vertical</title>
+    <style>
+        p{
+            width: 60%;
+            border: 1px dotted blue;
+            height: 100px;
+            text-decoration: underline;
+        }
+        span {
+            background-color: aquamarine;
+        }
+        img {
+            border: 1px dotted red;
+        }
+        p:first-of-type span{
+            vertical-align: baseline;
+        }
+        p:nth-of-type(2) span{
+            vertical-align: top;
+        }
+        p:nth-of-type(3) span{
+            vertical-align: super;
+        }
+        p:nth-of-type(4) span{
+            vertical-align: +1em;
+        }
+        p:nth-of-type(5) span{
+            vertical-align: bottom;
+        }
+        p:last-of-type span{
+            vertical-align: 50%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <p><img src="cara-feliz.png" alt="caritafeliz"> <span>Baseline</span></p>
+    <p><img src="cara-feliz.png" alt="caritafeliz"> <span>Top</span></p>
+    <p><img src="cara-feliz.png" alt="caritafeliz"> <span>Super</span></p>
+    <p><img src="cara-feliz.png" alt="caritafeliz"> <span>+1em</span></p>
+    <p><img src="cara-feliz.png" alt="caritafeliz"> <span>Bottom</span></p>
+    <p><img src="cara-feliz.png" alt="caritafeliz"> <span><img src="cara-feliz.png" alt="caritafeliz"></span></p>
+
+</body>
+
+</html>
